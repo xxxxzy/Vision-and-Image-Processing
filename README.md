@@ -1,10 +1,10 @@
 # Vision-and-Image-Processing
 Course:Vision and Image Processing from KU
-## Assignment 2
+## Assignment 2:Filtering and edge detection
 The program implements Gaussian filtering, Gradient magnitude and Laplacian-Gaussian filtering with σ = 1,2,4,8 and Canny edge detection with image lenna.jpg.
 Filtering is done by convolutions. Among the most applied filters are the Gaussian and its first and second order derivatives. Convolution with a Gaussian itself will blurr the image. Convolutions with the two first order Gaussian derivatives provides an estimate of the gradient field from which the gradient magnitude may be derived and visualised. Convolution with the sum of the second order (unmixed) partial derivatives of a Gaussian may be used both to detect blobs and edges. Edges and blobs in images code much of the semantic information available in the images and are often used as building elements in further analysis.
 ### Image : lenna.jpg
-## Assignment 3
+## Assignment 3:Photometric Stereo
 The program implements basic photometric stereo and a bit less basic.
 ### Data
 1. Beethoven.mat, 3 images, (semi-)synthetic (comes from a real model, but processed). 2. mat vase.mat, 3 images, synthetic.
